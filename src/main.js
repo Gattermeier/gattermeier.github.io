@@ -1,13 +1,20 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import Left from './components/Left.jsx';
+import Right from './components/Right.jsx';
 
-var App = React.createClass({
-  render: function() {
-    return <div>Hello {this.props.name}</div>;
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Left />
+        <Right />
+      </div>
+    )
   }
-});
+}
 
 ReactDOM.render(
-  <App name="World" />,
+  <App />,
   document.getElementById('main')
 );
