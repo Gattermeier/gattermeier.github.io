@@ -4,7 +4,7 @@ export default class Right extends Component {
   render() {
     return (
       <div>
-        Right
+        Right Side
       </div>
     )
   }

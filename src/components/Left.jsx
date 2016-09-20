@@ -4,7 +4,7 @@ export default class Left extends Component {
   render() {
     return (
       <div>
-        Left
+        Left Side
       </div>
     )
   }
